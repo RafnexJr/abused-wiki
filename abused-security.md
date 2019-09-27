@@ -7,3 +7,7 @@
 ### TTP
 
 - [pwnWiki](http://pwnwiki.io/#!index.md) - Wiki of TTPs after access to system has been gained
+
+### Logging
+
+- [JPCert Lateral Movement](https://www.jpcert.or.jp/english/pub/sr/ir_research.html) - Detecting Lateral Movement through Tracking Event Logs
