@@ -6,6 +6,11 @@ List with my personal collection of less-known security related stuff.
 
 ## Tools
 
+### Sysmon
+
+- [SwiftOnSecurity Sysmon Config](https://github.com/SwiftOnSecurity/sysmon-config) - Sysmon Config which reduces the noise in the logs
+- [Sysmon Deployment GPO](https://www.syspanda.com/index.php/2017/02/28/deploying-sysmon-through-gpo/)
+
 ### Yara Rules
 
 - [Valhalla](https://valhalla.nextron-systems.com/) - Yara rule database
