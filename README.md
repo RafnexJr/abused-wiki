@@ -5,6 +5,4 @@ Git Repository I abuse as knowledge base. Similar to a collection of "Awesome Li
 ## Security
 
 - [Abused Security](./abused-security.md) - my personal security link collection
-
- 
-
+- [Awesome Threat Intelligence](https://github.com/hslatman/awesome-threat-intelligence) - Threat intelligence collection provided by @hslatman
