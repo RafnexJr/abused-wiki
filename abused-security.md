@@ -2,119 +2,93 @@
 
 List with my personal collection of "less-known" security related stuff.
 
-## Content
-
 - [Abused Security List](#abused-security-list)
-  - [Content](#content)
   - [Tools](#tools)
-    - [Logging and Threat Hunting](#logging-and-threat-hunting)
-    - [Yara Rules](#yara-rules)
-    - [Network Analysis](#network-analysis)
-    - [Stegography](#stegography)
-    - [Disk Analysis](#disk-analysis)
-    - [Memory Analysis](#memory-analysis)
-    - [Timeline Tools](#timeline-tools)
-    - [Malware Discovery/Scanning](#malware-discoveryscanning)
-    - [Log Analysis](#log-analysis)
-  - [Resources](#resources)
-    - [Hardening](#hardening)
-    - [Compliance](#compliance)
-    - [Tactics, Techniques and Procedures](#tactics-techniques-and-procedures)
-    - [Exploit Research](#exploit-research)
-    - [Threat Hunting](#threat-hunting)
+    - [Red Teaming](#red-teaming)
     - [Logging](#logging)
-    - [Cheatsheets](#cheatsheets)
+    - [Threat Hunting](#threat-hunting)
+    - [Incident Response](#incident-response)
+    - [Forensics](#forensics)
+  - [Resources](#resources)
+    - [Hardening & Compliance Lists](#hardening--compliance-lists)
+    - [Sample Data](#sample-data)
+    - [Wikis & Sites](#wikis--sites)
+    - [Whitepapers & Research](#whitepapers--research)
+    - [Cheat sheets](#cheat-sheets)
     - [Videos](#videos)
     - [Blogs](#blogs)
 
 ## Tools
 
-### Logging and Threat Hunting
+### Red Teaming
 
-- [sysmon-config](https://github.com/SwiftOnSecurity/sysmon-config) - Sysmon configuration file template with default high-quality event tracing
-- [Sysmon Deployment GPO](https://www.syspanda.com/index.php/2017/02/28/deploying-sysmon-through-gpo/)
-- [auditd-attack](https://github.com/bfuzzy/auditd-attack) - A Linux Auditd rule set mapped to MITRE's Attack Framework
-- [ThreatHunting Splunk App](https://github.com/olafhartong/ThreatHunting) - A Splunk app mapped to MITRE ATT&CK to guide your threat hunts
-- [Detection Lab](https://github.com/clong/DetectionLab) - Lab environment complete with security tooling and logging best practices
-- [Event Forwarding Guidance](https://github.com/olafhartong/Event-Forwarding-Guidance) - Guidance for implementing of security relevant Windows Event Logs
+- [Gophish](https://getgophish.com/) - Open Source Phishing Framework
 
-### Yara Rules
+### Logging
 
-- [Klara](https://github.com/KasperskyLab/klara) - Yara testing and developing infrastructre by Kaspersky
+- [EVTXtoELK](https://github.com/dgunter/evtxtoelk) - Python Tool to upload EVTX Logs to Elasticsearch by @dgunter
+- [sysmon-config](https://github.com/SwiftOnSecurity/sysmon-config) - Sysmon configuration file template with default high-quality event tracing by @SwiftOnSecurity
+- [Sysmon Deployment GPO](https://www.syspanda.com/index.php/2017/02/28/deploying-sysmon-through-gpo/) - Deploy sysmon through active directory group policies
+- [auditd-attack](https://github.com/bfuzzy/auditd-attack) - A Linux Auditd rule set mapped to MITRE's Attack Framework by @bfuzzy
+- [ThreatHunting Splunk App](https://github.com/olafhartong/ThreatHunting) - A Splunk app mapped to MITRE ATT&CK to guide your threat hunts by @olafhartong
+- [Event Forwarding Guidance](https://github.com/olafhartong/Event-Forwarding-Guidance) - Guidance for implementing of security relevant Windows Event Logs by  @olafhartong
 
-### Network Analysis
+### Threat Hunting
 
-- [RITA](https://github.com/activecm/rita) - Beaconing/DNS tunneling detection and blacklist checking
-- [Passer](https://www.activecountermeasures.com/free-tools/passer/) - A Passive Sniffer and Inventory Tool
+- [Detection Lab](https://github.com/clong/DetectionLab) - Lab environment complete with security tooling and logging best practices by @clong
+- [Logon Tracer](https://github.com/JPCERTCC/LogonTracer) - Visualize logon inside an active directory by @JPCERTCC
+- [RITA](https://github.com/activecm/rita) - Beaconing/DNS tunneling detection and blacklist checking by @activecm
+- [Passer](https://www.activecountermeasures.com/free-tools/passer/) - A Passive Sniffer and Inventory Tool by @activecm
+- [Klara](https://github.com/KasperskyLab/klara) - Yara testing and developing infrastructure by @KasperskyLab
+- [Valhalla](https://valhalla.nextron-systems.com/) - Yara rule database by @Neo23x0
 
-### Stegography
+### Incident Response
 
-- [StegHide](http://steghide.sourceforge.net/) - Tool for Steganography in images and audio files.
+- [Kansa](https://github.com/davehull/Kansa) - Powershell incident response framework by @davehull
 
-### Disk Analysis
+### Forensics
 
-- [Autopsy](https://www.sleuthkit.org/autopsy/) - Timeline Analysis, Keyword Search, Artifact recovery, Disk analysis, etc.
-- [Sleuth Kit](https://www.sleuthkit.org/sleuthkit/) - Volume and FS Analysis, History, etc.
 - [PowerForensics](https://powerforensics.readthedocs.io/en/latest/) - Hard Drive forensics analysis
-
-### Memory Analysis
-
-- [Redline](https://www.fireeye.com/services/freeware/redline.html) - Mamory analysis for running machine
-- [Volatility Framework](https://www.volatilityfoundation.org/26) Memory Forensics, Atrifact Extraction
 - [Rekall Forensics](http://www.rekall-forensic.com/) - Fork of Volatility from a Google Dude
-
-### Timeline Tools
-
-- [log2timeline / plaso](https://plaso.readthedocs.io/en/latest/) - Artifact timeline creation and analysis
-- [Bulk Extractor](https://github.com/simsong/bulk_extractor) - Extracts data like URL, Telephone and JPEGS from Disk Image
 - [Cold Disk Quick Response Tool](https://github.com/orlikoski/CDQR) - fast and easy to use forensic artifact parsing tool
-
-### Malware Discovery/Scanning
-
-- [FireEye Labs Obfuscated String Solver](https://github.com/fireeye/flare-floss) -  Automatically extract obfuscated strings from malware
-- [Malware Byte](https://www.malwarebytes.com/) - Maleware scanner
 - [Sigcheck](https://docs.microsoft.com/en-us/sysinternals/downloads/sigcheck) - Sysinternals Tool to check file signatures
-
-### Log Analysis
-
-- [EVTXtoELK](https://github.com/dgunter/evtxtoelk) - Python Tool to upload EVTX Logs to Elasticsearch
+- [Cyber Chef](https://github.com/gchq/CyberChef/) - a webapp for encryption, encoding, compression and data analysis
 
 ## Resources
 
-### Hardening
+### Hardening & Compliance Lists
 
 - [NSA UEFI Defensive Practicing Guide](https://www.nsa.gov/Portals/70/documents/what-we-do/cybersecurity/professional-resources/ctr-uefi-defensive-practices-guidance.pdf) - Hardening Guide for UEFI Systems
-- [Stigviewer](https://www.stigviewer.com/) - Large collection of STIGs availbe to download
-- [DoD Exchange](https://public.cyber.mil/) - US DoD STIG list and other ressources
-
-### Compliance
+- [Stigviewer](https://www.stigviewer.com/) - Large collection of STIGs available to download
+- [DoD Exchange](https://public.cyber.mil/) - US DoD STIG list and other resources
 
 - [Common Controls Hub](https://cch.commoncontrolshub.com) - Create Compliance/Hardening lists based on almost any standards and laws
 - [Compliance Dictionary](https://compliancedictionary.com/) - Search engine / dictionary for compliance terms
 
-### Tactics, Techniques and Procedures
+### Sample Data
+
+- [EVXT Attack Samples](https://github.com/sbousseaden/EVTX-ATTACK-SAMPLES) - Samples of EVTX attack data
+- [ThreatLand](https://github.com/threatland) - Scientific malware samples
+
+### Wikis & Sites
 
 - [pwnWiki](http://pwnwiki.io/#!index.md) - Wiki of TTPs after access to system has been gained
+- [ADSecurity](https://adsecurity.org/) - Website with various resources for Active Directory Security
+- [Red Teaming Experiments](https://ired.team/) - Red teaming experiments wiki
 
-### Exploit Research
-
-- [Exploit DB](https://www.exploit-db.com/) - Database of known exploits
-
-### Threat Hunting
-
-- [Valhalla](https://valhalla.nextron-systems.com/) - Yara rule database
-
-### Logging
+### Whitepapers & Research
 
 - [JPCert Lateral Movement](https://www.jpcert.or.jp/english/pub/sr/ir_research.html) - Detecting Lateral Movement through Tracking Event Logs
+- [Abusing Token Privileges](https://github.com/hatRiot/token-priv)
 
-### Cheatsheets
+### Cheat sheets
 
 - [13Cubed Cheatsheets](https://www.13cubed.com/)
+- [XSS Cheat Sheet](https://portswigger.net/web-security/cross-site-scripting/cheat-sheet) - contains many vectors that can help you bypass WAFs and filters
 
 ### Videos
 
-- [13Cubed  Channel](https://www.youtube.com/user/davisrichardg/videos)
+- [13Cubed  Channel](https://www.youtube.com/user/davisrichardg/videos) - Youtube Channel for forensics
 - [Video Course: Maleware hunting with Sysinternals tools](https://channel9.msdn.com/events/teched/northamerica/2013/atc-b308#fbid=mb6_bvqq9jj)
 - [Yara Rule to find Evolving Malware](https://www.youtube.com/watch?v=XMZ-c2Zwzjg)
 - [Black Hills Information Security Youtube Channel](https://www.youtube.com/channel/UCJ2U9Dq9NckqHMbcUupgF0A/featured)
@@ -123,3 +97,4 @@ List with my personal collection of "less-known" security related stuff.
 
 - [Dragos Security Blog](https://dragos.com/blog/)
 - [Willi Ballenthin Blog](http://www.williballenthin.com/) - Forensics Blog (Python, EVTX, etc.)
+- [One Night in Norfolk](https://norfolkinfosec.com/) - Blog on reverse engineering and malware analysis
