@@ -61,7 +61,6 @@ List with my personal collection of "less-known" security related stuff.
 - [NSA UEFI Defensive Practicing Guide](https://www.nsa.gov/Portals/70/documents/what-we-do/cybersecurity/professional-resources/ctr-uefi-defensive-practices-guidance.pdf) - Hardening Guide for UEFI Systems
 - [Stigviewer](https://www.stigviewer.com/) - Large collection of STIGs available to download
 - [DoD Exchange](https://public.cyber.mil/) - US DoD STIG list and other resources
-
 - [Common Controls Hub](https://cch.commoncontrolshub.com) - Create Compliance/Hardening lists based on almost any standards and laws
 - [Compliance Dictionary](https://compliancedictionary.com/) - Search engine / dictionary for compliance terms
 
@@ -75,6 +74,7 @@ List with my personal collection of "less-known" security related stuff.
 - [pwnWiki](http://pwnwiki.io/#!index.md) - Wiki of TTPs after access to system has been gained
 - [ADSecurity](https://adsecurity.org/) - Website with various resources for Active Directory Security
 - [Red Teaming Experiments](https://ired.team/) - Red teaming experiments wiki
+- [OpenSSL Certificate Authority](https://jamielinux.com/docs/openssl-certificate-authority/introduction.html) - Comprehensive guide on how to setup a OpenSSL ca
 
 ### Whitepapers & Research
 
@@ -88,7 +88,7 @@ List with my personal collection of "less-known" security related stuff.
 
 ### Videos
 
-- [13Cubed  Channel](https://www.youtube.com/user/davisrichardg/videos) - Youtube Channel for forensics
+- [13Cubed Channel](https://www.youtube.com/user/davisrichardg/videos) - Youtube Channel for forensics
 - [Video Course: Maleware hunting with Sysinternals tools](https://channel9.msdn.com/events/teched/northamerica/2013/atc-b308#fbid=mb6_bvqq9jj)
 - [Yara Rule to find Evolving Malware](https://www.youtube.com/watch?v=XMZ-c2Zwzjg)
 - [Black Hills Information Security Youtube Channel](https://www.youtube.com/channel/UCJ2U9Dq9NckqHMbcUupgF0A/featured)
