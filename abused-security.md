@@ -23,6 +23,7 @@ List with my personal collection of "less-known" security related stuff.
 ### Red Teaming
 
 - [Gophish](https://getgophish.com/) - Open Source Phishing Framework
+- [Atomic Red Team](https://github.com/redcanaryco/atomic-red-team) - Library of attacks mapped to MITRE to test detection
 
 ### Logging
 
@@ -53,6 +54,10 @@ List with my personal collection of "less-known" security related stuff.
 - [Cold Disk Quick Response Tool](https://github.com/orlikoski/CDQR) - fast and easy to use forensic artifact parsing tool
 - [Sigcheck](https://docs.microsoft.com/en-us/sysinternals/downloads/sigcheck) - Sysinternals Tool to check file signatures
 - [Cyber Chef](https://github.com/gchq/CyberChef/) - a webapp for encryption, encoding, compression and data analysis
+
+### Malware Analysis
+
+- [Bombox](https://github.com/redcanaryco/atomic-red-team) - Automated setup of Cuckoo sandbox with vagrant by @nbeede 
 
 ## Resources
 
