@@ -100,6 +100,7 @@ List with my personal collection of "less-known" security related stuff.
 
 ### Blogs
 
+- [JPMinty](https://www.jaiminton.com/#) - Blog with awesome ressources of blueteam security stuff
 - [Dragos Security Blog](https://dragos.com/blog/)
 - [Willi Ballenthin Blog](http://www.williballenthin.com/) - Forensics Blog (Python, EVTX, etc.)
 - [One Night in Norfolk](https://norfolkinfosec.com/) - Blog on reverse engineering and malware analysis
