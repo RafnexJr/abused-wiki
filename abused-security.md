@@ -27,6 +27,7 @@ List with my personal collection of "less-known" security related stuff.
 
 ### Logging
 
+- [Elastic Stack Wiki](https://www.peerlyst.com/posts/the-elastic-stack-elk-wiki-chiheb-chebbi?trk=search_page_search_result) - Wiki with a lot of elastic resources.
 - [EVTXtoELK](https://github.com/dgunter/evtxtoelk) - Python Tool to upload EVTX Logs to Elasticsearch by @dgunter
 - [sysmon-config](https://github.com/SwiftOnSecurity/sysmon-config) - Sysmon configuration file template with default high-quality event tracing by @SwiftOnSecurity
 - [Sysmon Deployment GPO](https://www.syspanda.com/index.php/2017/02/28/deploying-sysmon-through-gpo/) - Deploy sysmon through active directory group policies
@@ -42,6 +43,7 @@ List with my personal collection of "less-known" security related stuff.
 - [Passer](https://www.activecountermeasures.com/free-tools/passer/) - A Passive Sniffer and Inventory Tool by @activecm
 - [Klara](https://github.com/KasperskyLab/klara) - Yara testing and developing infrastructure by @KasperskyLab
 - [Valhalla](https://valhalla.nextron-systems.com/) - Yara rule database by @Neo23x0
+- [Komand](https://docs.komand.com/docs/getting-started-1) - Security Orchestration
 
 ### Incident Response
 
@@ -68,6 +70,7 @@ List with my personal collection of "less-known" security related stuff.
 - [DoD Exchange](https://public.cyber.mil/) - US DoD STIG list and other resources
 - [Common Controls Hub](https://cch.commoncontrolshub.com) - Create Compliance/Hardening lists based on almost any standards and laws
 - [Compliance Dictionary](https://compliancedictionary.com/) - Search engine / dictionary for compliance terms
+- [NIST NVD](https://nvd.nist.gov/) - US National Vulnerability Database
 
 ### Sample Data
 
@@ -80,6 +83,10 @@ List with my personal collection of "less-known" security related stuff.
 - [ADSecurity](https://adsecurity.org/) - Website with various resources for Active Directory Security
 - [Red Teaming Experiments](https://ired.team/) - Red teaming experiments wiki
 - [OpenSSL Certificate Authority](https://jamielinux.com/docs/openssl-certificate-authority/introduction.html) - Comprehensive guide on how to setup a OpenSSL ca
+- [Threat Hunting Playbooks](https://github.com/hunters-forge/ThreatHunter-Playbook/) - Repository with a lot of awesome threat hunting ressources  
+- [Sysmon Security Guide](https://github.com/trustedsec/SysmonCommunityGuide) - Community guide for security relevant sysmon
+- [Threat Hunting Framework](https://www.threathunting.net/sqrrl-archive) - Framework for Threat Hunting in your enterprise
+- [Securing Priviledge Access](https://docs.microsoft.com/en-us/windows-server/identity/securing-privileged-access/securing-privileged-access-reference-material) - MS Article about priviledge access management
 
 ### Whitepapers & Research
 
@@ -97,6 +104,11 @@ List with my personal collection of "less-known" security related stuff.
 - [Video Course: Maleware hunting with Sysinternals tools](https://channel9.msdn.com/events/teched/northamerica/2013/atc-b308#fbid=mb6_bvqq9jj)
 - [Yara Rule to find Evolving Malware](https://www.youtube.com/watch?v=XMZ-c2Zwzjg)
 - [Black Hills Information Security Youtube Channel](https://www.youtube.com/channel/UCJ2U9Dq9NckqHMbcUupgF0A/featured)
+
+### Workshops
+
+- [Elastic SIEM Workshop](https://github.com/mrebeschini/elastic-siem-workshop) - Configure and use the elastic siem
+- [Hunters Workshop](https://github.com/HuntersCamp/HuntersWorkshop) . Workshop about creating a basic security platform with open source tools
 
 ### Blogs
 
