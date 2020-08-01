@@ -2,22 +2,6 @@
 
 List with my personal collection of "less-known" security related stuff.
 
-- [Abused Security List](#abused-security-list)
-  - [Tools](#tools)
-    - [Red Teaming](#red-teaming)
-    - [Logging](#logging)
-    - [Threat Hunting](#threat-hunting)
-    - [Incident Response](#incident-response)
-    - [Forensics](#forensics)
-  - [Resources](#resources)
-    - [Hardening & Compliance Lists](#hardening--compliance-lists)
-    - [Sample Data](#sample-data)
-    - [Wikis & Sites](#wikis--sites)
-    - [Whitepapers & Research](#whitepapers--research)
-    - [Cheat sheets](#cheat-sheets)
-    - [Videos](#videos)
-    - [Blogs](#blogs)
-
 ## Tools
 
 ### Red Teaming
@@ -31,7 +15,7 @@ List with my personal collection of "less-known" security related stuff.
 - [EVTXtoELK](https://github.com/dgunter/evtxtoelk) - Python Tool to upload EVTX Logs to Elasticsearch by @dgunter
 - [sysmon-config](https://github.com/SwiftOnSecurity/sysmon-config) - Sysmon configuration file template with default high-quality event tracing by @SwiftOnSecurity
 - [Sysmon Deployment GPO](https://www.syspanda.com/index.php/2017/02/28/deploying-sysmon-through-gpo/) - Deploy sysmon through active directory group policies
-- [auditd-attack](https://github.com/bfuzzy/auditd-attack) - A Linux Auditd rule set mapped to MITRE's Attack Framework by @bfuzzy
+- [auditd-attack](https://github.com/bfuzzy/auditd-attack) - A Linux AuditD rule set mapped to MITRE's Attack Framework by @bfuzzy
 - [ThreatHunting Splunk App](https://github.com/olafhartong/ThreatHunting) - A Splunk app mapped to MITRE ATT&CK to guide your threat hunts by @olafhartong
 - [Event Forwarding Guidance](https://github.com/olafhartong/Event-Forwarding-Guidance) - Guidance for implementing of security relevant Windows Event Logs by  @olafhartong
 
@@ -71,6 +55,7 @@ List with my personal collection of "less-known" security related stuff.
 - [Common Controls Hub](https://cch.commoncontrolshub.com) - Create Compliance/Hardening lists based on almost any standards and laws
 - [Compliance Dictionary](https://compliancedictionary.com/) - Search engine / dictionary for compliance terms
 - [NIST NVD](https://nvd.nist.gov/) - US National Vulnerability Database
+- [Risk Forecasting](https://magoo.github.io/Risk-Forecasting/) - Process of risk forecasting and assessment process
 
 ### Sample Data
 
@@ -91,7 +76,8 @@ List with my personal collection of "less-known" security related stuff.
 ### Whitepapers & Research
 
 - [JPCert Lateral Movement](https://www.jpcert.or.jp/english/pub/sr/ir_research.html) - Detecting Lateral Movement through Tracking Event Logs
-- [Abusing Token Privileges](https://github.com/hatRiot/token-priv)
+- [Abusing Token Privileges](https://github.com/hatRiot/token-priv) - Research about token priviledge abusing
+- [Cyb3rWard0g Presentations](https://github.com/Cyb3rWard0g/presentations) - All presentations made by 
 
 ### Cheat sheets
 
