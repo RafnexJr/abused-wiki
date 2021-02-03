@@ -77,7 +77,8 @@ List with my personal collection of "less-known" security related stuff.
 
 - [JPCert Lateral Movement](https://www.jpcert.or.jp/english/pub/sr/ir_research.html) - Detecting Lateral Movement through Tracking Event Logs
 - [Abusing Token Privileges](https://github.com/hatRiot/token-priv) - Research about token priviledge abusing
-- [Cyb3rWard0g Presentations](https://github.com/Cyb3rWard0g/presentations) - All presentations made by 
+- [Cyb3rWard0g Presentations](https://github.com/Cyb3rWard0g/presentations) - All presentations made by
+- [Secure Operating Systems](https://snikt.net/SecOpS.pdf)
 
 ### Cheat sheets
 
