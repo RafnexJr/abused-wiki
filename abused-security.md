@@ -72,6 +72,7 @@ List with my personal collection of "less-known" security related stuff.
 - [Sysmon Security Guide](https://github.com/trustedsec/SysmonCommunityGuide) - Community guide for security relevant sysmon
 - [Threat Hunting Framework](https://www.threathunting.net/sqrrl-archive) - Framework for Threat Hunting in your enterprise
 - [Securing Priviledge Access](https://docs.microsoft.com/en-us/windows-server/identity/securing-privileged-access/securing-privileged-access-reference-material) - MS Article about priviledge access management
+- [13cubed Downloads](https://www.13cubed.com/#downloads)
 
 ### Whitepapers & Research
 
