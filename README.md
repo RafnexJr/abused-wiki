@@ -59,7 +59,14 @@ List with my personal collection of "less-known" security related stuff.
 
 ### Malware Analysis
 
-- [Bombox](https://github.com/redcanaryco/atomic-red-team) - Automated setup of Cuckoo sandbox with vagrant by @nbeede 
+- [Bombox](https://github.com/redcanaryco/atomic-red-team) - Automated setup of Cuckoo sandbox with vagrant by @nbeede
+
+### Ticketing Systems
+
+- [Aurora Incident Response](https://github.com/cyb3rfox/Aurora-Incident-Response) - Graphic IR platform by @cyb3rfox
+- [Iris](https://github.com/dfir-iris/iris-web) - Incident Response Investigation System
+- [Yeti](https://yeti-platform.github.io/) - Organize threat intelligence
+- [FIR](https://github.com/certsocietegenerale/FIR) - Fast Incident Response platform
 
 ## Resources
 
